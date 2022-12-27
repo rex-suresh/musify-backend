@@ -1,0 +1,1532 @@
+{
+  "albums": [
+    {
+      "type": "album",
+      "id": "Alb.484959653",
+      "upc": "075679809667",
+      "shortcut": "a-boogie-wit-da-hoodie/artist-20-deluxe-explicit",
+      "href": "https://api.napster.com/v2.0/albums/Alb.484959653",
+      "name": "Artist 2.0 (Deluxe)",
+      "released": "2020-06-19T00:00:00.000Z",
+      "originallyReleased": "2020-06-19T00:00:00.000Z",
+      "label": "Highbridge the Label / Atlantic Records",
+      "copyright": "℗ 2020 Atlantic Recording Corporation and Highbridge The Label, LLC.",
+      "tags": ["Explicit"],
+      "discCount": 1,
+      "trackCount": 29,
+      "explicit": true,
+      "single": false,
+      "accountPartner": "Warner",
+      "artistName": "A Boogie Wit da Hoodie",
+      "contributingArtists": { "primaryArtist": "Art.211160262" },
+      "discographies": {
+        "main": ["Art.211160262"],
+        "others": [
+          "Art.61938941",
+          "Art.278130160",
+          "Art.29238898",
+          "Art.336478787",
+          "Art.20067516",
+          "Art.324606512",
+          "Art.235123194",
+          "Art.469885304",
+          "Art.266360478",
+          "Art.332283624",
+          "Art.263148833",
+          "Art.484955819",
+          "Art.17017987",
+          "Art.298590223",
+          "Art.270864934",
+          "Art.268856424",
+          "Art.324533122",
+          "Art.275708819",
+          "Art.379572136",
+          "Art.38927845",
+          "Art.470009272",
+          "Art.337355887",
+          "Art.30456906",
+          "Art.443648850",
+          "Art.44358443",
+          "Art.42502402",
+          "Art.484324678",
+          "Art.28188399",
+          "Art.263137350",
+          "Art.239779563",
+          "Art.24584862",
+          "Art.428718116",
+          "Art.164984632",
+          "Art.264187729",
+          "Art.23640327",
+          "Art.43097784",
+          "Art.386054732",
+          "Art.484955842",
+          "Art.411420748",
+          "Art.424243252",
+          "Art.310934377",
+          "Art.32699046",
+          "Art.9452843",
+          "Art.45852109",
+          "Art.11450913",
+          "Art.271574266",
+          "Art.470009270",
+          "Art.33776819",
+          "Art.443648885",
+          "Art.49794",
+          "Art.293264594",
+          "Art.264519298",
+          "Art.304641317",
+          "Art.290728520",
+          "Art.277167535",
+          "Art.390180918",
+          "Art.48120020",
+          "Art.264182851",
+          "Art.50270098",
+          "Art.266360803",
+          "Art.484955850",
+          "Art.31647051",
+          "Art.61781457",
+          "Art.265345642",
+          "Art.328403218",
+          "Art.10683007",
+          "Art.362533380",
+          "Art.282761358",
+          "Art.376219958",
+          "Art.6438748",
+          "Art.191365128",
+          "Art.40827",
+          "Art.434691306",
+          "Art.443648899",
+          "Art.286749238",
+          "Art.327047074",
+          "Art.329618204",
+          "Art.28901570",
+          "Art.443648896",
+          "Art.40897807",
+          "Art.443648861",
+          "Art.3296",
+          "Art.264367145",
+          "Art.270565928",
+          "Art.17317889",
+          "Art.264410847",
+          "Art.324914559",
+          "Art.443648859",
+          "Art.42919",
+          "Art.279209149",
+          "Art.443648888",
+          "Art.434890196",
+          "Art.42773566",
+          "Art.354241305",
+          "Art.240988271",
+          "Art.282747531",
+          "Art.484955871",
+          "Art.263631829",
+          "Art.395942669",
+          "Art.24914",
+          "Art.10700657",
+          "Art.264925160",
+          "Art.322004468",
+          "Art.264187724",
+          "Art.23926480",
+          "Art.484955869",
+          "Art.484955828",
+          "Art.180832890",
+          "Art.263952397",
+          "Art.361046942",
+          "Art.120652676",
+          "Art.295990717",
+          "Art.63586",
+          "Art.265081741",
+          "Art.29818879",
+          "Art.277535178",
+          "Art.263600426",
+          "Art.431802003",
+          "Art.26871529",
+          "Art.32255949",
+          "Art.397813220",
+          "Art.263718099",
+          "Art.364232667",
+          "Art.263073190",
+          "Art.409007334",
+          "Art.484955806",
+          "Art.262968824",
+          "Art.14369466",
+          "Art.293216448",
+          "Art.290281584",
+          "Art.272364546",
+          "Art.176527968",
+          "Art.361046977",
+          "Art.263157531",
+          "Art.314031583",
+          "Art.242592813",
+          "Art.315727776",
+          "Art.39347405",
+          "Art.333447610",
+          "Art.263952368",
+          "Art.247695193",
+          "Art.357861673",
+          "Art.41305418",
+          "Art.348844676",
+          "Art.106632131"
+        ]
+      },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.484959653/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.484959653/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.484959653/posts"
+        },
+        "artists": {
+          "ids": ["Art.211160262"],
+          "href": "https://api.napster.com/v2.0/artists/Art.211160262"
+        },
+        "genres": {
+          "ids": ["g.146"],
+          "href": "https://api.napster.com/v2.0/genres/g.146"
+        }
+      }
+    },
+    {
+      "type": "album",
+      "id": "Alb.468545309",
+      "upc": "7340190905390",
+      "shortcut": "dwayne-baldwin/king-468545309",
+      "href": "https://api.napster.com/v2.0/albums/Alb.468545309",
+      "name": "King",
+      "released": "2020-03-15T00:00:00.000Z",
+      "originallyReleased": "2020-03-15T00:00:00.000Z",
+      "label": "BMC Music",
+      "copyright": "2020 BMC Music",
+      "tags": [],
+      "discCount": 1,
+      "trackCount": 14,
+      "explicit": false,
+      "single": false,
+      "accountPartner": "Audiosalad",
+      "artistName": "Dwayne Baldwin",
+      "contributingArtists": { "primaryArtist": "Art.468545306" },
+      "discographies": {
+        "main": ["Art.468545306"],
+        "others": ["Art.468545311", "Art.468545313", "Art.468545315"]
+      },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.468545309/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.468545309/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.468545309/posts"
+        },
+        "artists": {
+          "ids": ["Art.468545306"],
+          "href": "https://api.napster.com/v2.0/artists/Art.468545306"
+        },
+        "genres": {
+          "ids": ["g.115"],
+          "href": "https://api.napster.com/v2.0/genres/g.115"
+        }
+      }
+    },
+    {
+      "type": "album",
+      "id": "Alb.468545545",
+      "upc": "7340190905338",
+      "shortcut": "an-pellentier/eclipse-468545545",
+      "href": "https://api.napster.com/v2.0/albums/Alb.468545545",
+      "name": "Eclipse",
+      "released": "2020-03-15T00:00:00.000Z",
+      "originallyReleased": "2020-03-15T00:00:00.000Z",
+      "label": "BMC Music",
+      "copyright": "2020 BMC Music",
+      "tags": [],
+      "discCount": 1,
+      "trackCount": 12,
+      "explicit": false,
+      "single": false,
+      "accountPartner": "Audiosalad",
+      "artistName": "An Pellentier",
+      "contributingArtists": { "primaryArtist": "Art.468545542" },
+      "discographies": {
+        "main": ["Art.468545542"],
+        "others": ["Art.468354325", "Art.468545551", "Art.468298699"]
+      },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.468545545/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.468545545/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.468545545/posts"
+        },
+        "artists": {
+          "ids": ["Art.468545542"],
+          "href": "https://api.napster.com/v2.0/artists/Art.468545542"
+        },
+        "genres": {
+          "ids": ["g.115"],
+          "href": "https://api.napster.com/v2.0/genres/g.115"
+        }
+      }
+    },
+    {
+      "type": "album",
+      "id": "Alb.468545425",
+      "upc": "7340190905420",
+      "shortcut": "jason-collins/falling-468545425",
+      "href": "https://api.napster.com/v2.0/albums/Alb.468545425",
+      "name": "Falling",
+      "released": "2020-03-15T00:00:00.000Z",
+      "originallyReleased": "2020-03-15T00:00:00.000Z",
+      "label": "Aliance Music",
+      "copyright": "2020 BMC Music",
+      "tags": [],
+      "discCount": 1,
+      "trackCount": 12,
+      "explicit": false,
+      "single": false,
+      "accountPartner": "Audiosalad",
+      "artistName": "Jason Collins",
+      "contributingArtists": { "primaryArtist": "Art.63363024" },
+      "discographies": {
+        "main": ["Art.63363024"],
+        "others": ["Art.468545430", "Art.468545434", "Art.468545432"]
+      },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.468545425/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.468545425/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.468545425/posts"
+        },
+        "artists": {
+          "ids": ["Art.63363024"],
+          "href": "https://api.napster.com/v2.0/artists/Art.63363024"
+        },
+        "genres": {
+          "ids": ["g.1023"],
+          "href": "https://api.napster.com/v2.0/genres/g.1023"
+        }
+      }
+    },
+    {
+      "type": "album",
+      "id": "Alb.719023868",
+      "upc": "196589622099",
+      "shortcut": "rauw-alejandro/saturno",
+      "href": "https://api.napster.com/v2.0/albums/Alb.719023868",
+      "name": "SATURNO",
+      "released": "2022-11-10T00:00:00.000Z",
+      "originallyReleased": "2022-11-10T00:00:00.000Z",
+      "label": "Sony Music Latin/Duars Entertainment",
+      "copyright": "2022 Sony Music Entertainment US Latin LLC/Duars Entertainment Corp.",
+      "tags": ["Explicit"],
+      "discCount": 1,
+      "trackCount": 18,
+      "explicit": true,
+      "single": false,
+      "accountPartner": "Sony",
+      "artistName": "Rauw Alejandro",
+      "contributingArtists": { "primaryArtist": "Art.242594428" },
+      "discographies": {
+        "others": [
+          "Art.43483784",
+          "Art.263939790",
+          "Art.339697210",
+          "Art.274701988",
+          "Art.266664819",
+          "Art.701748406",
+          "Art.330011966",
+          "Art.263939865",
+          "Art.652435817",
+          "Art.701748410",
+          "Art.39467842",
+          "Art.492821756",
+          "Art.333219318",
+          "Art.263620406",
+          "Art.224148674",
+          "Art.533712668",
+          "Art.701748408",
+          "Art.172368913",
+          "Art.31444677",
+          "Art.411577453",
+          "Art.592984631",
+          "Art.479085045",
+          "Art.24457812",
+          "Art.472491408",
+          "Art.682033729",
+          "Art.507012815",
+          "Art.6540859",
+          "Art.40901",
+          "Art.352555250",
+          "Art.392675659",
+          "Art.263511301",
+          "Art.345510506",
+          "Art.578366833",
+          "Art.27890710",
+          "Art.714456367",
+          "Art.478723777",
+          "Art.10031611",
+          "Art.719023897"
+        ],
+        "main": ["Art.242594428"]
+      },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.719023868/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.719023868/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.719023868/posts"
+        },
+        "artists": {
+          "ids": ["Art.242594428"],
+          "href": "https://api.napster.com/v2.0/artists/Art.242594428"
+        },
+        "genres": {
+          "ids": ["g.515"],
+          "href": "https://api.napster.com/v2.0/genres/g.515"
+        }
+      }
+    },
+    {
+      "type": "album",
+      "id": "Alb.468545369",
+      "upc": "7340190905437",
+      "shortcut": "joe-metz/lava-flowing",
+      "href": "https://api.napster.com/v2.0/albums/Alb.468545369",
+      "name": "Lava Flowing",
+      "released": "2020-03-15T00:00:00.000Z",
+      "originallyReleased": "2020-03-15T00:00:00.000Z",
+      "label": "BMC Music",
+      "copyright": "2020 BMC Music",
+      "tags": [],
+      "discCount": 1,
+      "trackCount": 13,
+      "explicit": false,
+      "single": false,
+      "accountPartner": "Audiosalad",
+      "artistName": "Joe Metz",
+      "contributingArtists": { "primaryArtist": "Art.468545366" },
+      "discographies": {
+        "main": ["Art.468545366"],
+        "others": ["Art.468545376", "Art.468545372", "Art.468545374"]
+      },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.468545369/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.468545369/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.468545369/posts"
+        },
+        "artists": {
+          "ids": ["Art.468545366"],
+          "href": "https://api.napster.com/v2.0/artists/Art.468545366"
+        },
+        "genres": {
+          "ids": ["g.115"],
+          "href": "https://api.napster.com/v2.0/genres/g.115"
+        }
+      }
+    },
+    {
+      "type": "album",
+      "id": "Alb.227040233",
+      "upc": "060270082120",
+      "shortcut": "mother-mother/o-my-heart-last-gang-2008",
+      "href": "https://api.napster.com/v2.0/albums/Alb.227040233",
+      "name": "O My Heart",
+      "released": "2008-09-23T00:00:00.000Z",
+      "originallyReleased": "2010-04-19T00:00:00.000Z",
+      "label": "Last Gang",
+      "copyright": "2008 Last Gang Records Inc.",
+      "tags": [],
+      "discCount": 1,
+      "trackCount": 12,
+      "explicit": false,
+      "single": false,
+      "accountPartner": "E1 [Koch Entertainment]",
+      "artistName": "Mother Mother",
+      "contributingArtists": { "primaryArtist": "Art.14435600" },
+      "discographies": { "main": ["Art.14435600"] },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.227040233/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.227040233/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.227040233/posts"
+        },
+        "artists": {
+          "ids": ["Art.14435600"],
+          "href": "https://api.napster.com/v2.0/artists/Art.14435600"
+        },
+        "genres": {
+          "ids": ["g.5"],
+          "href": "https://api.napster.com/v2.0/genres/g.5"
+        }
+      }
+    },
+    {
+      "type": "album",
+      "id": "Alb.413156524",
+      "upc": "886447993224",
+      "shortcut": "lil-tjay/true-2-myself",
+      "href": "https://api.napster.com/v2.0/albums/Alb.413156524",
+      "name": "True 2 Myself",
+      "released": "2019-10-11T00:00:00.000Z",
+      "originallyReleased": "2019-10-11T00:00:00.000Z",
+      "label": "Columbia",
+      "copyright": "2019 Columbia Records, a Division of Sony Music Entertainment",
+      "tags": ["Explicit"],
+      "discCount": 1,
+      "trackCount": 17,
+      "explicit": true,
+      "single": false,
+      "accountPartner": "Sony",
+      "artistName": "Lil Tjay",
+      "contributingArtists": { "primaryArtist": "Art.329058042" },
+      "discographies": {
+        "main": ["Art.329058042"],
+        "others": [
+          "Art.413156543",
+          "Art.318347459",
+          "Art.413156546",
+          "Art.413156560",
+          "Art.334188557",
+          "Art.266868346",
+          "Art.413156526",
+          "Art.47472",
+          "Art.266139829",
+          "Art.269716832",
+          "Art.9005",
+          "Art.396711583",
+          "Art.263584207",
+          "Art.65319508",
+          "Art.255589082",
+          "Art.397037992",
+          "Art.375654237",
+          "Art.270175844",
+          "Art.359167584",
+          "Art.263952377",
+          "Art.393836088",
+          "Art.317697440",
+          "Art.318465404",
+          "Art.326306987",
+          "Art.332232441",
+          "Art.396711580",
+          "Art.280027959",
+          "Art.393559946",
+          "Art.194129603",
+          "Art.294188118",
+          "Art.312789810",
+          "Art.280268787",
+          "Art.2272",
+          "Art.396711578",
+          "Art.324794895",
+          "Art.349236545",
+          "Art.265304115",
+          "Art.313539880",
+          "Art.31168604",
+          "Art.274334195",
+          "Art.305030200",
+          "Art.235713943",
+          "Art.316594186",
+          "Art.396711576",
+          "Art.289479819",
+          "Art.352179979",
+          "Art.13549",
+          "Art.268992216",
+          "Art.409163260"
+        ]
+      },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.413156524/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.413156524/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.413156524/posts"
+        },
+        "artists": {
+          "ids": ["Art.329058042"],
+          "href": "https://api.napster.com/v2.0/artists/Art.329058042"
+        },
+        "genres": {
+          "ids": ["g.146"],
+          "href": "https://api.napster.com/v2.0/genres/g.146"
+        }
+      }
+    },
+    {
+      "type": "album",
+      "id": "Alb.684329367",
+      "upc": "196589076977",
+      "shortcut": "nardo-wick/who-is-nardo-wick-deluxe",
+      "href": "https://api.napster.com/v2.0/albums/Alb.684329367",
+      "name": "Who is Nardo Wick?? (Deluxe)",
+      "released": "2022-07-22T00:00:00.000Z",
+      "originallyReleased": "2022-07-22T00:00:00.000Z",
+      "label": "Flawless Ent./RCA Records",
+      "copyright": "2022 Flawless Ent., under exclusive license to RCA Records",
+      "tags": ["Explicit"],
+      "discCount": 2,
+      "trackCount": 30,
+      "explicit": true,
+      "single": false,
+      "accountPartner": "Sony",
+      "artistName": "Nardo Wick",
+      "contributingArtists": { "primaryArtist": "Art.470290415" },
+      "discographies": {
+        "main": ["Art.470290415"],
+        "others": [
+          "Art.270351562",
+          "Art.32242498",
+          "Art.44465783",
+          "Art.147842450",
+          "Art.39627159",
+          "Art.296266354",
+          "Art.11697",
+          "Art.363478288",
+          "Art.24960857",
+          "Art.340187198",
+          "Art.272012229",
+          "Art.269132207",
+          "Art.675972741",
+          "Art.556046966",
+          "Art.24961015",
+          "Art.44927549",
+          "Art.269065530",
+          "Art.40897807",
+          "Art.684329382",
+          "Art.247695193",
+          "Art.42502402",
+          "Art.668424981",
+          "Art.417289736",
+          "Art.611491725",
+          "Art.439984908",
+          "Art.65319508",
+          "Art.16656838",
+          "Art.629403433",
+          "Art.7689431",
+          "Art.343963134",
+          "Art.303917186",
+          "Art.389481960",
+          "Art.201973627",
+          "Art.580034620",
+          "Art.349426672",
+          "Art.321133292",
+          "Art.29818884",
+          "Art.312874679",
+          "Art.452192610",
+          "Art.569822597",
+          "Art.471875646",
+          "Art.263138036",
+          "Art.14189",
+          "Art.495586110",
+          "Art.55628",
+          "Art.559240381",
+          "Art.362189921",
+          "Art.264013541",
+          "Art.12668820",
+          "Art.106017778",
+          "Art.347273486",
+          "Art.598076964",
+          "Art.59738021",
+          "Art.46201858",
+          "Art.400253785",
+          "Art.53503870",
+          "Art.266868346",
+          "Art.253825789",
+          "Art.12640",
+          "Art.369276944",
+          "Art.314152683",
+          "Art.684329389",
+          "Art.361397138",
+          "Art.514166217",
+          "Art.231661033",
+          "Art.317126780",
+          "Art.386325958",
+          "Art.516991729",
+          "Art.53503815",
+          "Art.5230932",
+          "Art.629403425",
+          "Art.268612847",
+          "Art.263729880",
+          "Art.268353718",
+          "Art.616103842",
+          "Art.31168604",
+          "Art.263060002",
+          "Art.318189073",
+          "Art.605869743",
+          "Art.549722185",
+          "Art.624799492",
+          "Art.525438906",
+          "Art.9963763",
+          "Art.624077285",
+          "Art.684329417",
+          "Art.380637968",
+          "Art.263059996",
+          "Art.263060004",
+          "Art.629403435",
+          "Art.371019819",
+          "Art.504853176",
+          "Art.594685696",
+          "Art.10906543",
+          "Art.303845767",
+          "Art.263939808",
+          "Art.328765847"
+        ]
+      },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.684329367/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.684329367/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.684329367/posts"
+        },
+        "artists": {
+          "ids": ["Art.470290415"],
+          "href": "https://api.napster.com/v2.0/artists/Art.470290415"
+        },
+        "genres": {
+          "ids": ["g.146"],
+          "href": "https://api.napster.com/v2.0/genres/g.146"
+        }
+      }
+    },
+    {
+      "type": "album",
+      "id": "Alb.636643419",
+      "upc": "4062851680615",
+      "shortcut": "janson/gang-squad",
+      "href": "https://api.napster.com/v2.0/albums/Alb.636643419",
+      "name": "Gang Squad",
+      "released": "2021-12-30T00:00:00.000Z",
+      "originallyReleased": "2021-12-30T00:00:00.000Z",
+      "label": "NautiGang",
+      "copyright": "NautiGang",
+      "tags": [],
+      "discCount": 1,
+      "trackCount": 46,
+      "explicit": false,
+      "single": false,
+      "accountPartner": "iGroove",
+      "artistName": "Janson",
+      "contributingArtists": { "primaryArtist": "Art.69935563" },
+      "discographies": {
+        "main": ["Art.69935563"],
+        "others": ["Art.402121029"]
+      },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.636643419/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.636643419/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.636643419/posts"
+        },
+        "artists": {
+          "ids": ["Art.69935563"],
+          "href": "https://api.napster.com/v2.0/artists/Art.69935563"
+        },
+        "genres": {
+          "ids": ["g.1008"],
+          "href": "https://api.napster.com/v2.0/genres/g.1008"
+        }
+      }
+    },
+    {
+      "type": "album",
+      "id": "Alb.686528398",
+      "upc": "196589246974",
+      "shortcut": "beyonce/renaissance-explicit",
+      "href": "https://api.napster.com/v2.0/albums/Alb.686528398",
+      "name": "RENAISSANCE",
+      "released": "2022-07-29T00:00:00.000Z",
+      "originallyReleased": "2022-07-29T00:00:00.000Z",
+      "label": "Parkwood Entertainment/Columbia",
+      "copyright": "2022 Parkwood Entertainment LLC, under exclusive license to Columbia Records, a Division of Sony Music Entertainment",
+      "tags": ["Explicit"],
+      "discCount": 1,
+      "trackCount": 16,
+      "explicit": true,
+      "single": false,
+      "accountPartner": "Sony",
+      "artistName": "Beyoncé",
+      "contributingArtists": { "primaryArtist": "Art.42919" },
+      "discographies": {
+        "main": ["Art.42919"],
+        "others": [
+          "Art.43466",
+          "Art.684443742",
+          "Art.676678244",
+          "Art.365587872",
+          "Art.263939771",
+          "Art.676678242",
+          "Art.658373623",
+          "Art.139902460",
+          "Art.316425484",
+          "Art.22597036",
+          "Art.294054915",
+          "Art.114830843",
+          "Art.24457839",
+          "Art.42191411",
+          "Art.106969868",
+          "Art.638814410",
+          "Art.176123229",
+          "Art.23694812",
+          "Art.53233424",
+          "Art.274498947",
+          "Art.676678246",
+          "Art.327652485",
+          "Art.676678248",
+          "Art.676678250",
+          "Art.26078576",
+          "Art.26954451",
+          "Art.396781209",
+          "Art.395114693",
+          "Art.31831844",
+          "Art.531800059",
+          "Art.166213858",
+          "Art.10148929",
+          "Art.264524665",
+          "Art.389949176",
+          "Art.53682925",
+          "Art.417467368",
+          "Art.28188420",
+          "Art.869",
+          "Art.676678252",
+          "Art.140877945",
+          "Art.211577636",
+          "Art.114737580",
+          "Art.615674207",
+          "Art.664198553"
+        ]
+      },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.686528398/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.686528398/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.686528398/posts"
+        },
+        "artists": {
+          "ids": ["Art.42919"],
+          "href": "https://api.napster.com/v2.0/artists/Art.42919"
+        },
+        "genres": {
+          "ids": ["g.253"],
+          "href": "https://api.napster.com/v2.0/genres/g.253"
+        }
+      }
+    },
+    {
+      "type": "album",
+      "id": "Alb.712545316",
+      "upc": "00602448843647",
+      "shortcut": "taylor-swift/midnights-3am-edition",
+      "href": "https://api.napster.com/v2.0/albums/Alb.712545316",
+      "name": "Midnights (3am Edition)",
+      "released": "2022-10-21T00:00:00.000Z",
+      "originallyReleased": "2022-10-21T00:00:00.000Z",
+      "label": "Taylor Swift",
+      "copyright": "℗ 2022 Taylor Swift",
+      "tags": ["Explicit"],
+      "discCount": 1,
+      "trackCount": 20,
+      "explicit": true,
+      "single": false,
+      "accountPartner": "UMG Global",
+      "artistName": "Taylor Swift",
+      "contributingArtists": { "primaryArtist": "Art.10482910" },
+      "discographies": {
+        "others": [
+          "Art.609074224",
+          "Art.49253437",
+          "Art.358885375",
+          "Art.273350757",
+          "Art.323531307",
+          "Art.259137307",
+          "Art.266175814",
+          "Art.263587080",
+          "Art.359785137",
+          "Art.29776773",
+          "Art.495381733",
+          "Art.401380424",
+          "Art.286256588",
+          "Art.263148831",
+          "Art.26871489",
+          "Art.283689012",
+          "Art.181705155",
+          "Art.256398311",
+          "Art.495381727",
+          "Art.265345642",
+          "Art.47460857",
+          "Art.541876315",
+          "Art.28323186",
+          "Art.8683358",
+          "Art.277660706",
+          "Art.384602099",
+          "Art.644181276",
+          "Art.107110712",
+          "Art.45181500",
+          "Art.351749005",
+          "Art.276517081",
+          "Art.251435562",
+          "Art.378912729",
+          "Art.382433552",
+          "Art.648696438",
+          "Art.712546516",
+          "Art.626124398",
+          "Art.556005252",
+          "Art.512928355",
+          "Art.25737181",
+          "Art.269813200",
+          "Art.53235866",
+          "Art.712507371",
+          "Art.8653566",
+          "Art.381797327",
+          "Art.195880977",
+          "Art.324407382",
+          "Art.46151313",
+          "Art.269065639",
+          "Art.268574685",
+          "Art.303632103",
+          "Art.195954887",
+          "Art.211644661"
+        ],
+        "main": ["Art.10482910"]
+      },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.712545316/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.712545316/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.712545316/posts"
+        },
+        "artists": {
+          "ids": ["Art.10482910"],
+          "href": "https://api.napster.com/v2.0/artists/Art.10482910"
+        },
+        "genres": {
+          "ids": ["g.115"],
+          "href": "https://api.napster.com/v2.0/genres/g.115"
+        }
+      }
+    },
+    {
+      "type": "album",
+      "id": "Alb.548725349",
+      "upc": "00602435458908",
+      "shortcut": "morgan-wallen/dangerous-the-double-album",
+      "href": "https://api.napster.com/v2.0/albums/Alb.548725349",
+      "name": "Dangerous: The Double Album",
+      "released": "2021-01-08T00:00:00.000Z",
+      "originallyReleased": "2021-01-08T00:00:00.000Z",
+      "label": "Big Loud / Republic",
+      "copyright": "℗ 2020 Big Loud Records, under exclusive license to Republic Records, A division of UMG Recordings, Inc.",
+      "tags": ["Explicit"],
+      "discCount": 2,
+      "trackCount": 30,
+      "explicit": true,
+      "single": false,
+      "accountPartner": "UMG Global",
+      "artistName": "Morgan Wallen",
+      "contributingArtists": { "primaryArtist": "Art.171338253" },
+      "discographies": {
+        "main": ["Art.171338253"],
+        "others": [
+          "Art.30392316",
+          "Art.29603751",
+          "Art.341577040",
+          "Art.236365541",
+          "Art.263796566",
+          "Art.49846",
+          "Art.52286",
+          "Art.5238304",
+          "Art.31540809",
+          "Art.26871190",
+          "Art.286167091",
+          "Art.270443981",
+          "Art.29603864",
+          "Art.266177990",
+          "Art.365158722",
+          "Art.280163921",
+          "Art.33280",
+          "Art.68449070",
+          "Art.14882245",
+          "Art.204285320",
+          "Art.13966537",
+          "Art.272518161",
+          "Art.6662203",
+          "Art.20798256",
+          "Art.15749021",
+          "Art.266946107",
+          "Art.26531068",
+          "Art.31963479",
+          "Art.251135839",
+          "Art.271600090",
+          "Art.303651690",
+          "Art.125079424",
+          "Art.411033856",
+          "Art.263455086",
+          "Art.312758914",
+          "Art.32255902",
+          "Art.281228840",
+          "Art.263060639",
+          "Art.227925920",
+          "Art.32255912",
+          "Art.175785362",
+          "Art.12090340",
+          "Art.30268651",
+          "Art.204281447",
+          "Art.266882517",
+          "Art.29429234",
+          "Art.9391301",
+          "Art.19780595",
+          "Art.30268647",
+          "Art.28787076",
+          "Art.15352652",
+          "Art.39801162",
+          "Art.44761282",
+          "Art.267107197",
+          "Art.99928138",
+          "Art.30268649",
+          "Art.270800050",
+          "Art.32255911",
+          "Art.263738162",
+          "Art.21340746",
+          "Art.266882519",
+          "Art.341577042",
+          "Art.28787083",
+          "Art.53930498",
+          "Art.278627698"
+        ]
+      },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.548725349/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.548725349/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.548725349/posts"
+        },
+        "artists": {
+          "ids": ["Art.171338253"],
+          "href": "https://api.napster.com/v2.0/artists/Art.171338253"
+        },
+        "genres": {
+          "ids": ["g.407"],
+          "href": "https://api.napster.com/v2.0/genres/g.407"
+        }
+      }
+    },
+    {
+      "type": "album",
+      "id": "Alb.504819363",
+      "upc": "195497060740",
+      "shortcut": "as-tequileiras-do-funk/bass-da-da-da-sentadao",
+      "href": "https://api.napster.com/v2.0/albums/Alb.504819363",
+      "name": "Bass da da da (Sentadão)",
+      "released": "2020-09-04T00:00:00.000Z",
+      "originallyReleased": "2020-09-04T00:00:00.000Z",
+      "label": "Jorge Curi / Vidisco",
+      "copyright": "2020 Jorge Curi under exclusive license to Vidisco SA",
+      "tags": ["Single"],
+      "discCount": 1,
+      "trackCount": 1,
+      "explicit": false,
+      "single": true,
+      "accountPartner": "Orchard Enterprises Inc",
+      "artistName": "As Tequileiras do Funk",
+      "contributingArtists": { "primaryArtist": "Art.45723065" },
+      "discographies": {
+        "singlesAndEPs": ["Art.45723065"],
+        "others": ["Art.273227746"]
+      },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.504819363/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.504819363/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.504819363/posts"
+        },
+        "artists": {
+          "ids": ["Art.45723065"],
+          "href": "https://api.napster.com/v2.0/artists/Art.45723065"
+        },
+        "genres": {
+          "ids": ["g.8258"],
+          "href": "https://api.napster.com/v2.0/genres/g.8258"
+        }
+      }
+    },
+    {
+      "type": "album",
+      "id": "Alb.720457794",
+      "upc": "3617053059557",
+      "shortcut": "jul/namek",
+      "href": "https://api.napster.com/v2.0/albums/Alb.720457794",
+      "name": "Namek",
+      "released": "2022-11-18T00:00:00.000Z",
+      "originallyReleased": "2022-11-18T00:00:00.000Z",
+      "label": "D'Or et de Platine",
+      "copyright": "D'Or et de Platine / Believe",
+      "tags": ["Single", "Explicit"],
+      "discCount": 1,
+      "trackCount": 1,
+      "explicit": true,
+      "single": true,
+      "accountPartner": "Believe Digital",
+      "artistName": "JUL",
+      "contributingArtists": { "primaryArtist": "Art.64730" },
+      "discographies": {
+        "others": ["Art.342156035", "Art.304107708"],
+        "singlesAndEPs": ["Art.64730"]
+      },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.720457794/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.720457794/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.720457794/posts"
+        },
+        "artists": {
+          "ids": ["Art.64730"],
+          "href": "https://api.napster.com/v2.0/artists/Art.64730"
+        },
+        "genres": {
+          "ids": ["g.146"],
+          "href": "https://api.napster.com/v2.0/genres/g.146"
+        }
+      }
+    },
+    {
+      "type": "album",
+      "id": "Alb.197922912",
+      "upc": "603497883967",
+      "shortcut": "various-artists/back-to-school-classics",
+      "href": "https://api.napster.com/v2.0/albums/Alb.197922912",
+      "name": "Back To School Classics",
+      "released": "2015-09-04T00:00:00.000Z",
+      "originallyReleased": "2015-09-04T00:00:00.000Z",
+      "label": "Rhino",
+      "copyright": "℗ 2015 Rhino Entertainment Company, a Warner Music Group Company. Marketed by Rhino Entertainment Company.",
+      "tags": ["Explicit"],
+      "discCount": 1,
+      "trackCount": 20,
+      "explicit": true,
+      "single": false,
+      "accountPartner": "Warner",
+      "artistName": "Various Artists",
+      "discographies": {
+        "compilations": [
+          "Art.39381",
+          "Art.44153",
+          "Art.44094",
+          "Art.3665",
+          "Art.6883447",
+          "Art.4410",
+          "Art.27689",
+          "Art.6078",
+          "Art.6529630",
+          "Art.63949",
+          "Art.67337",
+          "Art.3120",
+          "Art.1131",
+          "Art.1600",
+          "Art.68466",
+          "Art.20184101",
+          "Art.5551",
+          "Art.39096",
+          "Art.5598",
+          "Art.1179"
+        ]
+      },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.197922912/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.197922912/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.197922912/posts"
+        },
+        "genres": {
+          "ids": ["g.115"],
+          "href": "https://api.napster.com/v2.0/genres/g.115"
+        }
+      }
+    },
+    {
+      "type": "album",
+      "id": "Alb.120523596",
+      "upc": "093624943082",
+      "shortcut": "avenged-sevenfold/hail-to-the-king-warner-bros",
+      "href": "https://api.napster.com/v2.0/albums/Alb.120523596",
+      "name": "Hail To The King",
+      "released": "2013-08-27T00:00:00.000Z",
+      "originallyReleased": "2013-08-23T00:00:00.000Z",
+      "label": "Warner Records",
+      "copyright": "2013 Warner Records Inc.",
+      "tags": [],
+      "discCount": 1,
+      "trackCount": 10,
+      "explicit": false,
+      "single": false,
+      "accountPartner": "Warner",
+      "artistName": "Avenged Sevenfold",
+      "contributingArtists": { "primaryArtist": "Art.38737" },
+      "discographies": {
+        "main": ["Art.38737"],
+        "others": [
+          "Art.28990666",
+          "Art.38670055",
+          "Art.29525832",
+          "Art.28787086",
+          "Art.39202562",
+          "Art.335671595",
+          "Art.7094502",
+          "Art.21340877",
+          "Art.20048",
+          "Art.213530795",
+          "Art.17017923",
+          "Art.9811568",
+          "Art.288495991",
+          "Art.39202560",
+          "Art.40081062",
+          "Art.40216094",
+          "Art.104716348",
+          "Art.63914",
+          "Art.24023270",
+          "Art.359807926",
+          "Art.38582707",
+          "Art.39202572",
+          "Art.16309",
+          "Art.19749238",
+          "Art.16113299",
+          "Art.10225807",
+          "Art.32511101",
+          "Art.65275495",
+          "Art.39262305",
+          "Art.27580958",
+          "Art.287849058",
+          "Art.28990885",
+          "Art.32748433",
+          "Art.366051555",
+          "Art.39606035",
+          "Art.411161305",
+          "Art.38309400",
+          "Art.325376204",
+          "Art.28990678",
+          "Art.411063921",
+          "Art.263817465",
+          "Art.32134459",
+          "Art.15726000",
+          "Art.39202578",
+          "Art.42263510",
+          "Art.21544951",
+          "Art.32134448",
+          "Art.264524621",
+          "Art.263817463",
+          "Art.424416140",
+          "Art.263817467",
+          "Art.32945252",
+          "Art.435157317",
+          "Art.274406796",
+          "Art.424416142"
+        ]
+      },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.120523596/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.120523596/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.120523596/posts"
+        },
+        "artists": {
+          "ids": ["Art.38737"],
+          "href": "https://api.napster.com/v2.0/artists/Art.38737"
+        },
+        "genres": {
+          "ids": ["g.465", "g.316"],
+          "href": "https://api.napster.com/v2.0/genres/g.465,g.316"
+        },
+        "reviews": {
+          "ids": ["RevAl.121887220"],
+          "href": "https://api.napster.com/v2.0/albums/reviews/RevAl.121887220"
+        }
+      }
+    },
+    {
+      "type": "album",
+      "id": "Alb.689866178",
+      "upc": "196589330673",
+      "shortcut": "rod-wave/beautiful-mind",
+      "href": "https://api.napster.com/v2.0/albums/Alb.689866178",
+      "name": "Beautiful Mind",
+      "released": "2022-08-12T00:00:00.000Z",
+      "originallyReleased": "2022-08-12T00:00:00.000Z",
+      "label": "Alamo",
+      "copyright": "2022 Alamo Records, LLC/Sony Music Entertainment",
+      "tags": ["Explicit"],
+      "discCount": 1,
+      "trackCount": 24,
+      "explicit": true,
+      "single": false,
+      "accountPartner": "Sony",
+      "artistName": "Rod Wave",
+      "contributingArtists": { "primaryArtist": "Art.269812631" },
+      "discographies": {
+        "main": ["Art.269812631"],
+        "others": [
+          "Art.15670067",
+          "Art.362533380",
+          "Art.68464",
+          "Art.568206736",
+          "Art.428787970",
+          "Art.319583209",
+          "Art.543697653",
+          "Art.146690648",
+          "Art.202560194",
+          "Art.466506861",
+          "Art.282725535",
+          "Art.342200066",
+          "Art.50975436",
+          "Art.17454047",
+          "Art.289479819",
+          "Art.474344986",
+          "Art.313539880",
+          "Art.391992507",
+          "Art.51892149",
+          "Art.589772384",
+          "Art.221332417",
+          "Art.508154905",
+          "Art.309428323",
+          "Art.427067961",
+          "Art.260111166",
+          "Art.474368281",
+          "Art.329618204"
+        ]
+      },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.689866178/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.689866178/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.689866178/posts"
+        },
+        "artists": {
+          "ids": ["Art.269812631"],
+          "href": "https://api.napster.com/v2.0/artists/Art.269812631"
+        },
+        "genres": {
+          "ids": ["g.146"],
+          "href": "https://api.napster.com/v2.0/genres/g.146"
+        }
+      }
+    },
+    {
+      "type": "album",
+      "id": "Alb.675815131",
+      "upc": "196589221285",
+      "shortcut": "various-artists/elvis-original-motion-picture-soundtrack",
+      "href": "https://api.napster.com/v2.0/albums/Alb.675815131",
+      "name": "ELVIS (Original Motion Picture Soundtrack)",
+      "released": "2022-06-24T00:00:00.000Z",
+      "originallyReleased": "2022-06-24T00:00:00.000Z",
+      "label": "House of Iona/RCA Records",
+      "copyright": "This Compilation (P) 2022 RCA Records, a division of Sony Music Entertainment",
+      "tags": [],
+      "discCount": 1,
+      "trackCount": 36,
+      "explicit": false,
+      "single": false,
+      "accountPartner": "Sony",
+      "artistName": "Various Artists",
+      "discographies": {
+        "compilations": [
+          "Art.21417990",
+          "Art.24023363",
+          "Art.43983",
+          "Art.17454098",
+          "Art.263885906",
+          "Art.264421562",
+          "Art.396347634",
+          "Art.572102798",
+          "Art.20779033",
+          "Art.170154491",
+          "Art.279344323",
+          "Art.42413",
+          "Art.40977648",
+          "Art.350290273",
+          "Art.44",
+          "Art.270712678",
+          "Art.28138041",
+          "Art.263131023",
+          "Art.8049",
+          "Art.297916770",
+          "Art.52710",
+          "Art.28188685",
+          "Art.496050996",
+          "Art.5238320",
+          "Art.26871489",
+          "Art.271047316",
+          "Art.6021",
+          "Art.321272498",
+          "Art.163243124",
+          "Art.115494716",
+          "Art.31300240",
+          "Art.50429",
+          "Art.264421564",
+          "Art.263885904",
+          "Art.22189554",
+          "Art.470290415",
+          "Art.264709457",
+          "Art.31646104",
+          "Art.10964291",
+          "Art.308680551",
+          "Art.24767460",
+          "Art.29603630",
+          "Art.32127631",
+          "Art.268942819",
+          "Art.25107712",
+          "Art.675145591",
+          "Art.154",
+          "Art.33131167",
+          "Art.378372798",
+          "Art.122188462",
+          "Art.11932",
+          "Art.247633484",
+          "Art.291495130",
+          "Art.302491090",
+          "Art.264911028",
+          "Art.6663337",
+          "Art.287567474",
+          "Art.220859373",
+          "Art.282756918",
+          "Art.23590203",
+          "Art.11791239",
+          "Art.61677",
+          "Art.246372050",
+          "Art.296575087",
+          "Art.30054232",
+          "Art.42982106",
+          "Art.675816720",
+          "Art.5196427",
+          "Art.55080214",
+          "Art.525349887",
+          "Art.139399412",
+          "Art.384602099",
+          "Art.269436983",
+          "Art.395912816",
+          "Art.263939736",
+          "Art.41005648"
+        ]
+      },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.675815131/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.675815131/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.675815131/posts"
+        },
+        "genres": {
+          "ids": ["g.115"],
+          "href": "https://api.napster.com/v2.0/genres/g.115"
+        }
+      }
+    },
+    {
+      "type": "album",
+      "id": "Alb.720239480",
+      "upc": "725336733162",
+      "shortcut": "jam/the-gang",
+      "href": "https://api.napster.com/v2.0/albums/Alb.720239480",
+      "name": "The Gang",
+      "released": "2022-11-12T00:00:00.000Z",
+      "originallyReleased": "2022-11-12T00:00:00.000Z",
+      "label": "NautiGang",
+      "copyright": "NautiGang",
+      "tags": [],
+      "discCount": 1,
+      "trackCount": 25,
+      "explicit": false,
+      "single": false,
+      "accountPartner": "repost_network",
+      "artistName": "Jam",
+      "contributingArtists": { "primaryArtist": "Art.12717275" },
+      "discographies": {
+        "main": ["Art.12717275"],
+        "others": ["Art.376188366"]
+      },
+      "links": {
+        "images": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.720239480/images"
+        },
+        "tracks": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.720239480/tracks"
+        },
+        "posts": {
+          "href": "https://api.napster.com/v2.0/albums/Alb.720239480/posts"
+        },
+        "artists": {
+          "ids": ["Art.12717275"],
+          "href": "https://api.napster.com/v2.0/artists/Art.12717275"
+        },
+        "genres": {
+          "ids": ["g.259"],
+          "href": "https://api.napster.com/v2.0/genres/g.259"
+        }
+      }
+    }
+  ]
+}
