@@ -1,465 +1,65 @@
 {
   "playlists": [
     {
-      "type": "playlist",
       "id": "pp.225974698",
       "name": "New Music Weekly",
-      "modified": "2022-12-09T17:53:06.000Z",
-      "href": "https://api.napster.com/v2.2/playlists/pp.225974698",
-      "trackCount": 40,
-      "privacy": "public",
-      "images": [
-        {
-          "type": "image",
-          "id": "pp.225974698",
-          "url": "http://direct.napster.com/imageserver/v2/playlists/pp.225974698/artists/images/230x153.jpg",
-          "contentId": "pp.225974698",
-          "width": 230,
-          "height": 153,
-          "isDefault": true,
-          "version": 0,
-          "imageType": "displayImage"
-        }
-      ],
-      "description": "Check out some of this week's best new releases. Cover: SZA\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t",
-      "favoriteCount": 9150,
-      "freePlayCompliant": true,
-      "links": {
-        "members": {
-          "ids": ["205D5C750C8A03D0E050960A39036947"],
-          "href": "https://api.napster.com/v2.2/members/205D5C750C8A03D0E050960A39036947"
-        },
-        "tracks": {
-          "href": "https://api.napster.com/v2.2/playlists/pp.225974698/tracks"
-        },
-        "tags": {
-          "ids": ["tag.392047347", "tag.152196420"],
-          "href": "https://api.napster.com/v2.2/tags/tag.392047347,tag.152196420"
-        },
-        "sampleArtists": {
-          "ids": [
-            "art.69410617",
-            "art.7501250",
-            "art.315265697",
-            "art.53235866"
-          ],
-          "href": "https://api.napster.com/v2.2/artists/art.69410617,art.7501250,art.315265697,art.53235866"
-        }
-      }
+      "image": "https://api.napster.com/imageserver/v2/playlists/pp.225974698/artists/images/500x500.jpg?montage=2x2",
+      "description": "Check out some of this week's best new releases. Cover: Ava Max"
     },
     {
-      "type": "playlist",
       "id": "pp.214725454",
       "name": "Trending Pop",
-      "modified": "2022-11-28T20:23:52.000Z",
-      "href": "https://api.napster.com/v2.2/playlists/pp.214725454",
-      "trackCount": 40,
-      "privacy": "public",
-      "images": [
-        {
-          "type": "image",
-          "id": "pp.214725454",
-          "url": "http://direct.napster.com/imageserver/v2/playlists/pp.214725454/artists/images/230x153.jpg",
-          "contentId": "pp.214725454",
-          "width": 230,
-          "height": 153,
-          "isDefault": true,
-          "version": 0,
-          "imageType": "displayImage"
-        }
-      ],
-      "description": "Pop songs that are bubbling up right now! Cover: Carly Rae Jepsen",
-      "favoriteCount": 4797,
-      "freePlayCompliant": true,
-      "links": {
-        "members": {
-          "ids": ["205D5C750C8A03D0E050960A39036947"],
-          "href": "https://api.napster.com/v2.2/members/205D5C750C8A03D0E050960A39036947"
-        },
-        "tracks": {
-          "href": "https://api.napster.com/v2.2/playlists/pp.214725454/tracks"
-        },
-        "tags": {
-          "ids": ["tag.177397967", "tag.392047347"],
-          "href": "https://api.napster.com/v2.2/tags/tag.177397967,tag.392047347"
-        },
-        "sampleArtists": {
-          "ids": [
-            "art.54055415",
-            "art.31646024",
-            "art.262463752",
-            "art.541833870"
-          ],
-          "href": "https://api.napster.com/v2.2/artists/art.54055415,art.31646024,art.262463752,art.541833870"
-        }
-      }
+      "image": "https://api.napster.com/imageserver/v2/playlists/pp.214725454/artists/images/500x500.jpg?montage=2x2",
+      "description": "Pop songs that are bubbling up right now! Cover: GAYLE"
     },
     {
-      "type": "playlist",
       "id": "pp.180234724",
       "name": "Trending Hip-Hop",
-      "modified": "2022-11-01T23:19:21.000Z",
-      "href": "https://api.napster.com/v2.2/playlists/pp.180234724",
-      "trackCount": 50,
-      "privacy": "public",
-      "images": [
-        {
-          "type": "image",
-          "id": "pp.180234724",
-          "url": "http://direct.napster.com/imageserver/v2/playlists/pp.180234724/artists/images/230x153.jpg",
-          "contentId": "pp.180234724",
-          "width": 230,
-          "height": 153,
-          "isDefault": true,
-          "version": 0,
-          "imageType": "displayImage"
-        }
-      ],
-      "description": "\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tDig into the hottest and buzziest Hip-Hop tracks of right now\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t",
-      "favoriteCount": 7759,
-      "freePlayCompliant": true,
-      "links": {
-        "members": {
-          "ids": ["205D5C750C8A03D0E050960A39036947"],
-          "href": "https://api.napster.com/v2.2/members/205D5C750C8A03D0E050960A39036947"
-        },
-        "tracks": {
-          "href": "https://api.napster.com/v2.2/playlists/pp.180234724/tracks"
-        },
-        "tags": {
-          "ids": ["tag.177397967", "tag.152196515"],
-          "href": "https://api.napster.com/v2.2/tags/tag.177397967,tag.152196515"
-        },
-        "sampleArtists": {
-          "ids": [
-            "art.261679027",
-            "art.572586814",
-            "art.173205056",
-            "art.307685811"
-          ],
-          "href": "https://api.napster.com/v2.2/artists/art.261679027,art.572586814,art.173205056,art.307685811"
-        }
-      }
+      "image": "https://api.napster.com/imageserver/v2/playlists/pp.180234724/artists/images/500x500.jpg?montage=2x2",
+      "description": "Dig into the hottest and buzziest Hip-Hop tracks of right now"
     },
     {
-      "type": "playlist",
       "id": "pp.179780609",
       "name": "Trending Rock",
-      "modified": "2022-07-04T14:14:24.000Z",
-      "href": "https://api.napster.com/v2.2/playlists/pp.179780609",
-      "trackCount": 99,
-      "privacy": "public",
-      "images": [
-        {
-          "type": "image",
-          "id": "pp.179780609",
-          "url": "http://direct.napster.com/imageserver/v2/playlists/pp.179780609/artists/images/230x153.jpg",
-          "contentId": "pp.179780609",
-          "width": 230,
-          "height": 153,
-          "isDefault": true,
-          "version": 0,
-          "imageType": "displayImage"
-        }
-      ],
-      "description": "Your go-to playlist for big hits and new releases. Turn it up!",
-      "favoriteCount": 3112,
-      "freePlayCompliant": true,
-      "links": {
-        "members": {
-          "ids": ["1E8ABCD0F5BA2012E043C0A87FE42012"],
-          "href": "https://api.napster.com/v2.2/members/1E8ABCD0F5BA2012E043C0A87FE42012"
-        },
-        "tracks": {
-          "href": "https://api.napster.com/v2.2/playlists/pp.179780609/tracks"
-        },
-        "tags": { "ids": [] },
-        "sampleArtists": {
-          "ids": ["art.44311", "art.287567474", "art.15138855", "art.38926563"],
-          "href": "https://api.napster.com/v2.2/artists/art.44311,art.287567474,art.15138855,art.38926563"
-        }
-      }
+      "image": "https://api.napster.com/imageserver/v2/playlists/pp.179780609/artists/images/500x500.jpg?montage=2x2",
+      "description": "Your go-to playlist for big hits and new releases. Turn it up!"
     },
     {
-      "type": "playlist",
       "id": "pp.224772103",
       "name": "Trending Country",
-      "modified": "2022-12-05T20:39:13.000Z",
-      "href": "https://api.napster.com/v2.2/playlists/pp.224772103",
-      "trackCount": 100,
-      "privacy": "public",
-      "images": [
-        {
-          "type": "image",
-          "id": "pp.224772103",
-          "url": "http://direct.napster.com/imageserver/v2/playlists/pp.224772103/artists/images/230x153.jpg",
-          "contentId": "pp.224772103",
-          "width": 230,
-          "height": 153,
-          "isDefault": true,
-          "version": 0,
-          "imageType": "displayImage"
-        }
-      ],
-      "description": "Top trending country songs",
-      "favoriteCount": 5401,
-      "freePlayCompliant": true,
-      "links": {
-        "members": {
-          "ids": ["205D5C750C8A03D0E050960A39036947"],
-          "href": "https://api.napster.com/v2.2/members/205D5C750C8A03D0E050960A39036947"
-        },
-        "tracks": {
-          "href": "https://api.napster.com/v2.2/playlists/pp.224772103/tracks"
-        },
-        "tags": {
-          "ids": ["tag.177397967", "tag.152196531"],
-          "href": "https://api.napster.com/v2.2/tags/tag.177397967,tag.152196531"
-        },
-        "sampleArtists": {
-          "ids": [
-            "art.40215677",
-            "art.62058",
-            "art.196006713",
-            "art.397551855"
-          ],
-          "href": "https://api.napster.com/v2.2/artists/art.40215677,art.62058,art.196006713,art.397551855"
-        }
-      }
+      "image": "https://api.napster.com/imageserver/v2/playlists/pp.224772103/artists/images/500x500.jpg?montage=2x2",
+      "description": "Top trending country songs"
     },
     {
-      "type": "playlist",
       "id": "pp.253600731",
       "name": "Song of the Day",
-      "modified": "2022-03-24T15:42:08.000Z",
-      "href": "https://api.napster.com/v2.2/playlists/pp.253600731",
-      "trackCount": 57,
-      "privacy": "public",
-      "images": [
-        {
-          "type": "image",
-          "id": "pp.253600731",
-          "url": "http://direct.napster.com/imageserver/v2/playlists/pp.253600731/artists/images/230x153.jpg",
-          "contentId": "pp.253600731",
-          "width": 230,
-          "height": 153,
-          "isDefault": true,
-          "version": 0,
-          "imageType": "displayImage"
-        }
-      ],
-      "description": "Handpicked songs you need to hear",
-      "favoriteCount": 2657,
-      "freePlayCompliant": true,
-      "links": {
-        "members": {
-          "ids": ["205D5C750C8A03D0E050960A39036947"],
-          "href": "https://api.napster.com/v2.2/members/205D5C750C8A03D0E050960A39036947"
-        },
-        "tracks": {
-          "href": "https://api.napster.com/v2.2/playlists/pp.253600731/tracks"
-        },
-        "tags": {
-          "ids": [
-            "tag.152196543",
-            "tag.152196557",
-            "tag.152196531",
-            "tag.152196523",
-            "tag.152196515",
-            "tag.152196498"
-          ],
-          "href": "https://api.napster.com/v2.2/tags/tag.152196543,tag.152196557,tag.152196531,tag.152196523,tag.152196515,tag.152196498"
-        },
-        "sampleArtists": {
-          "ids": [
-            "art.9157450",
-            "art.53930498",
-            "art.16614260",
-            "art.64608061"
-          ],
-          "href": "https://api.napster.com/v2.2/artists/art.9157450,art.53930498,art.16614260,art.64608061"
-        }
-      }
+      "image": "https://api.napster.com/imageserver/v2/playlists/pp.253600731/artists/images/500x500.jpg?montage=2x2",
+      "description": "Handpicked songs you need to hear"
     },
     {
-      "type": "playlist",
       "id": "pp.179829496",
       "name": "Top 50 USA",
-      "modified": "2022-11-28T19:41:41.000Z",
-      "href": "https://api.napster.com/v2.2/playlists/pp.179829496",
-      "trackCount": 50,
-      "privacy": "public",
-      "images": [
-        {
-          "type": "image",
-          "id": "pp.179829496",
-          "url": "http://direct.napster.com/imageserver/v2/playlists/pp.179829496/artists/images/230x153.jpg",
-          "contentId": "pp.179829496",
-          "width": 230,
-          "height": 153,
-          "isDefault": true,
-          "version": 0,
-          "imageType": "displayImage"
-        }
-      ],
-      "description": "The most streamed songs on Napster US this week. #1 Morgan Wallen\n\t\t\t\t\t\t\t\t\t",
-      "favoriteCount": 5403,
-      "freePlayCompliant": true,
-      "links": {
-        "members": {
-          "ids": ["205D5C750C8A03D0E050960A39036947"],
-          "href": "https://api.napster.com/v2.2/members/205D5C750C8A03D0E050960A39036947"
-        },
-        "tracks": {
-          "href": "https://api.napster.com/v2.2/playlists/pp.179829496/tracks"
-        },
-        "tags": {
-          "ids": ["tag.502348337", "tag.392047347", "tag.437420990"],
-          "href": "https://api.napster.com/v2.2/tags/tag.502348337,tag.392047347,tag.437420990"
-        },
-        "sampleArtists": {
-          "ids": [
-            "art.171338253",
-            "art.28463069",
-            "art.202560194",
-            "art.17120673"
-          ],
-          "href": "https://api.napster.com/v2.2/artists/art.171338253,art.28463069,art.202560194,art.17120673"
-        }
-      }
+      "image": "https://api.napster.com/imageserver/v2/playlists/pp.179829496/artists/images/500x500.jpg?montage=2x2",
+      "description": "The most streamed songs on Napster US this week. #1 Morgan Wallen"
     },
     {
-      "type": "playlist",
       "id": "pp.227349347",
       "name": "Pure Flow",
-      "modified": "2022-11-11T18:54:19.000Z",
-      "href": "https://api.napster.com/v2.2/playlists/pp.227349347",
-      "trackCount": 50,
-      "privacy": "public",
-      "images": [
-        {
-          "type": "image",
-          "id": "pp.227349347",
-          "url": "http://direct.napster.com/imageserver/v2/playlists/pp.227349347/artists/images/230x153.jpg",
-          "contentId": "pp.227349347",
-          "width": 230,
-          "height": 153,
-          "isDefault": true,
-          "version": 0,
-          "imageType": "displayImage"
-        }
-      ],
-      "description": "\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tStrictly rhymes and beats for today's true Hip-Hop heads",
-      "favoriteCount": 2444,
-      "freePlayCompliant": true,
-      "links": {
-        "members": {
-          "ids": ["205D5C750C8A03D0E050960A39036947"],
-          "href": "https://api.napster.com/v2.2/members/205D5C750C8A03D0E050960A39036947"
-        },
-        "tracks": {
-          "href": "https://api.napster.com/v2.2/playlists/pp.227349347/tracks"
-        },
-        "tags": {
-          "ids": ["tag.156763213", "tag.152196515"],
-          "href": "https://api.napster.com/v2.2/tags/tag.156763213,tag.152196515"
-        },
-        "sampleArtists": {
-          "ids": ["art.539", "art.4634", "art.104452392"],
-          "href": "https://api.napster.com/v2.2/artists/art.539,art.4634,art.104452392"
-        }
-      }
+      "image": "https://api.napster.com/imageserver/v2/playlists/pp.227349347/artists/images/500x500.jpg?montage=2x2",
+      "description": "Strictly rhymes and beats for today's true Hip-Hop heads"
     },
     {
-      "type": "playlist",
       "id": "pp.222517949",
       "name": "Global Trending",
-      "modified": "2022-07-04T14:38:13.000Z",
-      "href": "https://api.napster.com/v2.2/playlists/pp.222517949",
-      "trackCount": 50,
-      "privacy": "public",
-      "images": [
-        {
-          "type": "image",
-          "id": "pp.222517949",
-          "url": "http://direct.napster.com/imageserver/v2/playlists/pp.222517949/artists/images/230x153.jpg",
-          "contentId": "pp.222517949",
-          "width": 230,
-          "height": 153,
-          "isDefault": true,
-          "version": 0,
-          "imageType": "displayImage"
-        }
-      ],
-      "description": "Globally trending tracks",
-      "favoriteCount": 11676,
-      "freePlayCompliant": true,
-      "links": {
-        "members": {
-          "ids": ["205D5C750C8A03D0E050960A39036947"],
-          "href": "https://api.napster.com/v2.2/members/205D5C750C8A03D0E050960A39036947"
-        },
-        "tracks": {
-          "href": "https://api.napster.com/v2.2/playlists/pp.222517949/tracks"
-        },
-        "tags": {
-          "ids": ["tag.177397967"],
-          "href": "https://api.napster.com/v2.2/tags/tag.177397967"
-        },
-        "sampleArtists": {
-          "ids": ["art.2069", "art.42919", "art.231403288", "art.42799189"],
-          "href": "https://api.napster.com/v2.2/artists/art.2069,art.42919,art.231403288,art.42799189"
-        }
-      }
+      "image": "https://api.napster.com/imageserver/v2/playlists/pp.222517949/artists/images/500x500.jpg?montage=2x2",
+      "description": "Globally trending tracks"
     },
     {
-      "type": "playlist",
       "id": "pp.234639838",
       "name": "Lovers Lane",
-      "modified": "2022-12-09T21:09:54.000Z",
-      "href": "https://api.napster.com/v2.2/playlists/pp.234639838",
-      "trackCount": 50,
-      "privacy": "public",
-      "images": [
-        {
-          "type": "image",
-          "id": "pp.234639838",
-          "url": "http://direct.napster.com/imageserver/v2/playlists/pp.234639838/artists/images/230x153.jpg",
-          "contentId": "pp.234639838",
-          "width": 230,
-          "height": 153,
-          "isDefault": true,
-          "version": 0,
-          "imageType": "displayImage"
-        }
-      ],
-      "description": "\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tFor a slightly more mature taste in today's R&B\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t",
-      "favoriteCount": 1877,
-      "freePlayCompliant": true,
-      "links": {
-        "members": {
-          "ids": ["205D5C750C8A03D0E050960A39036947"],
-          "href": "https://api.napster.com/v2.2/members/205D5C750C8A03D0E050960A39036947"
-        },
-        "tracks": {
-          "href": "https://api.napster.com/v2.2/playlists/pp.234639838/tracks"
-        },
-        "tags": {
-          "ids": [
-            "tag.177551102",
-            "tag.152196557",
-            "tag.152196537",
-            "tag.152196523",
-            "tag.156763213"
-          ],
-          "href": "https://api.napster.com/v2.2/tags/tag.177551102,tag.152196557,tag.152196537,tag.152196523,tag.156763213"
-        },
-        "sampleArtists": {
-          "ids": ["art.328808169", "art.69410617", "art.185035219"],
-          "href": "https://api.napster.com/v2.2/artists/art.328808169,art.69410617,art.185035219"
-        }
-      }
+      "image": "https://api.napster.com/imageserver/v2/playlists/pp.234639838/artists/images/500x500.jpg?montage=2x2",
+      "description": "For a slightly more mature taste in today's R&B"
     }
   ],
-  "meta": { "returnedCount": 10, "totalCount": null }
+  "type": "playlists-list"
 }

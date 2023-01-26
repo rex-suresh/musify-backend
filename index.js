@@ -3,9 +3,11 @@ const express = require('express');
 const morgan = require('morgan');
 const { homePageRouter } = require('./src/routes/home/homePageRouter.router');
 const { searchRouter } = require('./src/routes/search/searchRouter.router');
+const errorhandler = require('errorhandler');
 
 const app = express();
 
+app.use(errorhandler());
 app.use(morgan('dev'));
 
 app.get('/', (_, res) => res.json({
