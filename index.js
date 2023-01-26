@@ -3,9 +3,11 @@ const express = require('express');
 const morgan = require('morgan');
 const { homePageRouter } = require('./src/routes/homePageRouter.router');
 const errorhandler = require('errorhandler');
+const cors = require('cors');
 
 const app = express();
 
+app.use(cors());
 app.use(errorhandler());
 app.use(morgan('dev'));
 
