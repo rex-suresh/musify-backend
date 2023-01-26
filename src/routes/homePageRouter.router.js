@@ -1,8 +1,8 @@
 const express = require('express');
-const { getHomeAlbums } = require('../albums/getTop');
-const { getHomeArtists } = require('../artists/getTop');
-const { getHomePlaylists } = require('../playlists/getTop');
-const { getHomeTracks } = require('../tracks/getTop');
+const { getHomeAlbums } = require('./getTopAlbums');
+const { getHomeArtists } = require('./getTopArtists');
+const { getHomePlaylists } = require('./getTopPlaylists');
+const { getHomeTracks } = require('./getTopTracks');
 
 const homePageRouter = () => {
   const router = express.Router();

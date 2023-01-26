@@ -1,8 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const morgan = require('morgan');
-const { homePageRouter } = require('./src/routes/home/homePageRouter.router');
-const { searchRouter } = require('./src/routes/search/searchRouter.router');
+const { homePageRouter } = require('./src/routes/homePageRouter.router');
 const errorhandler = require('errorhandler');
 
 const app = express();
@@ -16,7 +15,6 @@ app.get('/', (_, res) => res.json({
 }));
 
 app.use('/home', homePageRouter());
-app.use('/search', searchRouter());
 app.use('/', (_, res) => {
   res.status(400);
   res.end();

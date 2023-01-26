@@ -1,4 +1,4 @@
-const { routes } = require('../../utils/routes');
+const { routes } = require('../utils/routes');
 
 const stripExtraChars = (description) =>
   description.replace(/\t/g, '').replace(/\n/g, '');

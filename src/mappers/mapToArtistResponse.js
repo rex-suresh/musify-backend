@@ -1,4 +1,4 @@
-const { routes } = require('../../utils/routes');
+const { routes } = require('../utils/routes');
 
 const mapArtistInfo = (artistInfo) => {
   const { id, name } = artistInfo;

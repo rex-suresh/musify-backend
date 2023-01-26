@@ -1,4 +1,4 @@
-const { routes } = require('../../utils/routes');
+const { routes } = require('../utils/routes');
 
 const mapAlbumInfo = (albumInfo) => {
   const { id, name, artistName, contributingArtists, label, explicit } = albumInfo;
@@ -23,9 +23,5 @@ const mapToListResponse = ({ albums }) => {
   response.albums = albums.map(mapAlbumInfo);
   return response;
 };
-
-// const mapToSingleResponse = () => {
-//   // haven't hit this problem yet.
-// };
 
 module.exports = { mapToListResponse };
