@@ -14,13 +14,13 @@ const mapAlbumInfo = (albumInfo) => {
 };
 
 const mapToListResponse = ({ albums }) => {
-  const response = { albums: [], type: 'albums-list' };
+  const response = { result: [], type: 'albums-list' };
 
   if (albums.length < 1) {
     return response;
   }
 
-  response.albums = albums.map(mapAlbumInfo);
+  response.result = albums.map(mapAlbumInfo);
   return response;
 };
 

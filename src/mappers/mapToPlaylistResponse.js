@@ -15,13 +15,13 @@ const mapPlaylistInfo = (playlistInfo) => {
 };
 
 const mapToListResponse = ({ playlists }) => {
-  const response = { playlists: [], type: 'playlists-list' };
+  const response = { result: [], type: 'playlists-list' };
 
   if (playlists.length < 1) {
     return response;
   }
 
-  response.playlists = playlists.map(mapPlaylistInfo);
+  response.result = playlists.map(mapPlaylistInfo);
   return response;
 };
 

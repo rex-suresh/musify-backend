@@ -11,13 +11,13 @@ const mapArtistInfo = (artistInfo) => {
 };
 
 const mapToListResponse = ({ artists }) => {
-  const response = { artists: [], type: 'artists-list' };
+  const response = { result: [], type: 'artists-list' };
 
   if (artists.length < 1) {
     return response;
   }
 
-  response.artists = artists.map(mapArtistInfo);
+  response.result = artists.map(mapArtistInfo);
   return response;
 };
 

@@ -24,13 +24,13 @@ const mapTrackInfo = (trackInfo) => {
 };
 
 const mapToListResponse = ({ tracks }) => {
-  const response = { tracks: [], type: 'tracks-list' };
+  const response = { result: [], type: 'tracks-list' };
 
   if (tracks.length < 1) {
     return response;
   }
 
-  response.tracks = tracks.map(mapTrackInfo);
+  response.result = tracks.map(mapTrackInfo);
   return response;
 };
 
