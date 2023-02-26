@@ -4,6 +4,7 @@ const morgan = require('morgan');
 const { homePageRouter } = require('./src/routes/homePageRouter.router');
 const errorhandler = require('errorhandler');
 const cors = require('cors');
+const { detailPageRouter } = require('./src/routes/detailPageRouter.router');
 
 const app = express();
 
@@ -17,6 +18,8 @@ app.get('/', (_, res) => res.json({
 }));
 
 app.use('/home', homePageRouter());
+app.use('/detail', detailPageRouter());
+
 app.use('/', (_, res) => {
   res.status(400);
   res.end();

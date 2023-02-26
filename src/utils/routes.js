@@ -40,11 +40,15 @@ const routes = {
   albums: (albumIDs) => buildIdLink('albums', albumIDs),
   playlists: (playlistIDs) => buildIdLink('playlists', playlistIDs),
 
+  playlistTracks: (playlistID, limit = 10) => `${domain}/playlists/${playlistID}/tracks?limit=${limit}`,
+
   searchKeyword: (key) => `${fallBackDomain}/search?q=${key}`,
   searchCombination: (key) => `${fallBackDomain}/search/verbose?q=${key}`,
 
   sqrImage: (id) => // tracks | albums
     `${img_domain}/albums/${id}/images/500x500.jpg`,
+  sqrImageMicro: (id) => // tracks | albums
+    `${img_domain}/albums/${id}/images/200x200.jpg`,
   artImage: (id) =>
     `${img_domain}/artists/${id}/images/500x500.jpg`,
   playlistImage: (id) => // generated images

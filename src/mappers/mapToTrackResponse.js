@@ -1,6 +1,6 @@
 const { routes } = require('../utils/routes');
 
-const mapTrackInfo = (trackInfo) => {
+const mapTrackInfo = (routeOf = routes.sqrImage) => (trackInfo) => {
   const {
     id,
     name,
@@ -15,7 +15,7 @@ const mapTrackInfo = (trackInfo) => {
   return {
     id,
     name,
-    image: new URL(routes.sqrImage(albumId)),
+    image: new URL(routeOf(albumId)),
     playbackSeconds,
     album: { name: albumName, id: albumId },
     artist: { name: artistName, id: artistId },
@@ -23,14 +23,16 @@ const mapTrackInfo = (trackInfo) => {
   };
 };
 
-const mapToListResponse = ({ tracks }) => {
+const mapToListResponse = (microImage) => ({ tracks }) => {
   const response = { result: [], type: 'tracks-list' };
 
   if (tracks.length < 1) {
     return response;
   }
 
-  response.result = tracks.map(mapTrackInfo);
+  const mapper = microImage ?
+    mapTrackInfo(routes.sqrImageMicro) : mapTrackInfo();
+  response.result = tracks.map(mapper);
   return response;
 };
 
