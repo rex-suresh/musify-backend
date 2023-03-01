@@ -41,6 +41,7 @@ const routes = {
   playlists: (playlistIDs) => buildIdLink('playlists', playlistIDs),
 
   playlistTracks: (playlistID, limit = 10) => `${domain}/playlists/${playlistID}/tracks?limit=${limit}`,
+  albumTracks: (albumID) => `${domain}/albums/${albumID}/tracks`,
 
   searchKeyword: (key) => `${fallBackDomain}/search?q=${key}`,
   searchCombination: (key) => `${fallBackDomain}/search/verbose?q=${key}`,
