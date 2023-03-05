@@ -1,12 +1,14 @@
 require('dotenv').config();
 const express = require('express');
 const morgan = require('morgan');
-const { homePageRouter } = require('./src/routes/homePageRouter.router');
 const errorhandler = require('errorhandler');
 const cors = require('cors');
+const { homePageRouter } = require('./src/routes/homePageRouter.router');
 const { detailPageRouter } = require('./src/routes/detailPageRouter.router');
+const { initiateRedis } = require('./src/redis/redis');
 
 const app = express();
+initiateRedis();
 
 app.use(cors());
 app.use(errorhandler());

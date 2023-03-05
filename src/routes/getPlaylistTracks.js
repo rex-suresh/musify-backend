@@ -4,7 +4,7 @@ const { routes } = require('../utils/routes');
 
 const getPlaylistTracks = (req, res) => {
   const { id } = req.params;
-  resolveRequest(res, routes.playlistTracks(id), mapToListResponse(true));
+  resolveRequest(res, routes.playlistTracks(id), mapToListResponse(true), req.originalUrl);
 };
 
 module.exports = { getPlaylistTracks };
