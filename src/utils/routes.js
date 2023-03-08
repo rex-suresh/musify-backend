@@ -14,7 +14,7 @@ const buildTopRangeLink = (section, level, limit) => {
 };
 
 const buildTopLink = (section, limit) => {
-  return `${fallBackDomain}/${section}/top?limit=${limit}`;
+  return `${domain}/${section}/top?limit=${limit}`;
 };
 
 const buildIdLink = (section, reqIds) => {
