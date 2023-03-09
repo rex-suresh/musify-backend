@@ -22,10 +22,12 @@ const getArtistDetail = async (req, res) => {
     ]);
 
   res.json({
-    id,
-    tracks: extractValue(tracksData),
-    albums: extractValue(albumsData),
-    bio: null // Has to be fetched from a different source
+    result: {
+      id,
+      tracks: extractValue(tracksData),
+      albums: extractValue(albumsData),
+      bio: null // Has to be fetched from a different source
+    }
   });
 };
 
