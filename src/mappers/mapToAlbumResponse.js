@@ -13,6 +13,8 @@ const mapAlbumInfo = (albumInfo) => {
   };
 };
 
+const mapAlbumList = ({ albums }) => albums.map(mapAlbumInfo);
+
 const mapToListResponse = ({ albums }) => {
   const response = { result: [], type: 'albums-list' };
 
@@ -24,4 +26,4 @@ const mapToListResponse = ({ albums }) => {
   return response;
 };
 
-module.exports = { mapToListResponse };
+module.exports = { mapToListResponse, mapAlbumList };

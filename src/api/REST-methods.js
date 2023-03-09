@@ -14,6 +14,11 @@ const get = async (url) => axios.get(url, {
   console.warn(error.message);
 });
 
+const sendAndSave = (res, data, saveAs) => {
+  saveToCache(saveAs, data);
+  res.send(data);
+};
+
 const resolveRequest = async (res, url, mapper, requestUrl) => {
   const cachedResponse = await getFromCache(requestUrl);
 
@@ -25,12 +30,16 @@ const resolveRequest = async (res, url, mapper, requestUrl) => {
   get(url).then((response) => {
     if (response?.status === 200) {
       const downStreamData = mapper(response.data);
-      saveToCache(requestUrl, downStreamData);
-      res.send(downStreamData);
+      sendAndSave(res, downStreamData, requestUrl);
       return;
     }
     res.status(504);
   });
 };
 
-module.exports = { get, resolveRequest };
+const requestFor = async (url, mapper) =>
+  get(url).then((response) => {
+    return response?.status === 200 ? mapper(response.data) : [];
+  });
+
+module.exports = { get, resolveRequest, requestFor };

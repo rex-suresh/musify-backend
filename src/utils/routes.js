@@ -43,8 +43,11 @@ const routes = {
   playlistTracks: (playlistID, limit = 10) => `${domain}/playlists/${playlistID}/tracks?limit=${limit}`,
   albumTracks: (albumID) => `${domain}/albums/${albumID}/tracks`,
 
-  searchKeyword: (key) => `${fallBackDomain}/search?q=${key}`,
-  searchCombination: (key) => `${fallBackDomain}/search/verbose?q=${key}`,
+  // searchKeyword: (key) => `${fallBackDomain}/search?q=${key}`,
+  // searchCombination: (key) => `${fallBackDomain}/search/verbose?q=${key}`,
+
+  artistTracks: (id) => `${domain}/artists/${id}/tracks?limit=5`,
+  artistAlbums: (id) => `${domain}/artists/${id}/albums?limit=10`,
 
   sqrImage: (id) => // tracks | albums
     `${img_domain}/albums/${id}/images/500x500.jpg`,

@@ -23,6 +23,9 @@ const mapTrackInfo = (routeOf = routes.sqrImage) => (trackInfo) => {
   };
 };
 
+const mapTrackList = ({ tracks }) =>
+  tracks.map(mapTrackInfo(routes.sqrImageMicro));
+
 const mapToListResponse = (microImage) => ({ tracks }) => {
   const response = { result: [], type: 'tracks-list' };
 
@@ -36,4 +39,4 @@ const mapToListResponse = (microImage) => ({ tracks }) => {
   return response;
 };
 
-module.exports = { mapToListResponse };
+module.exports = { mapToListResponse, mapTrackList };
