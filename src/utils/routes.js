@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const domain = process.env.API_DOMAIN;
 const img_domain = process.env.IMAGE_DOMAIN;
-const fallBackDomain = process.env.API_DOMAIN_2;
+// const fallBackDomain = process.env.API_DOMAIN_2;
 
 const getRange = (level) => {
   const ranges = ['day', 'week', 'month', 'year', 'life'];
@@ -28,9 +28,9 @@ const routes = {
     buildTopRangeLink('playlists', level, limit),
 
   topArtists: (limit = 10) =>
-    buildTopLink('artists', limit), // using fallback links
+    buildTopLink('artists', limit),
   topAlbums: (limit = 20) =>
-    buildTopLink('albums', limit), // using fallback links
+    buildTopLink('albums', limit),
 
   featuredPlaylists: (limit = 10) =>
     `${domain}/playlists/featured?limit=${limit}`,
@@ -46,8 +46,8 @@ const routes = {
   // searchKeyword: (key) => `${fallBackDomain}/search?q=${key}`,
   // searchCombination: (key) => `${fallBackDomain}/search/verbose?q=${key}`,
 
-  artistTracks: (id) => `${domain}/artists/${id}/tracks?limit=5`,
-  artistAlbums: (id) => `${domain}/artists/${id}/albums?limit=10`,
+  artistTracks: (id) => `${domain}/artists/${id}/tracks/top?limit=5`,
+  artistAlbums: (id) => `${domain}/artists/${id}/albums/top?limit=10`,
 
   sqrImage: (id) => // tracks | albums
     `${img_domain}/albums/${id}/images/500x500.jpg`,

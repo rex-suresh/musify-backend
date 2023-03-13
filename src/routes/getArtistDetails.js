@@ -1,6 +1,6 @@
-const { requestFor } = require('../api/REST-methods');
-const { mapTrackList } = require('../mappers/mapToTrackResponse');
-const { mapAlbumList } = require('../mappers/mapToAlbumResponse');
+const { requestFor, resolveRequest } = require('../api/REST-methods');
+const { mapTrackList, mapToListResponse } = require('../mappers/mapToTrackResponse');
+const { mapAlbumList, mapToListResponse: mapToAlbumListResponse } = require('../mappers/mapToAlbumResponse');
 const { routes } = require('../utils/routes');
 
 const tracksReq = async (id, mapper) =>
@@ -31,4 +31,14 @@ const getArtistDetail = async (req, res) => {
   });
 };
 
-module.exports = { getArtistDetail };
+const getArtistTracks = (req, res) => {
+  const { id } = req.params;
+  resolveRequest(res, routes.artistTracks(id), mapToListResponse(true), req.originalUrl);
+};
+
+const getArtistAlbums = (req, res) => {
+  const { id } = req.params;
+  resolveRequest(res, routes.artistAlbums(id), mapToAlbumListResponse, req.originalUrl);
+};
+
+module.exports = { getArtistDetail, getArtistTracks, getArtistAlbums };
