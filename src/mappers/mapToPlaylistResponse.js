@@ -1,4 +1,5 @@
 const { routes } = require('../utils/routes');
+const { removeDuplicates } = require('./mapperUtils');
 
 const stripExtraChars = (description) =>
   description.replace(/\t/g, '').replace(/\n/g, '');
@@ -21,7 +22,7 @@ const mapToListResponse = ({ playlists }) => {
     return response;
   }
 
-  response.result = playlists.map(mapPlaylistInfo);
+  response.result = playlists.map(mapPlaylistInfo).reduce(removeDuplicates, []);
   return response;
 };
 

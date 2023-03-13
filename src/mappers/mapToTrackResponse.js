@@ -1,4 +1,5 @@
 const { routes } = require('../utils/routes');
+const { removeDuplicates } = require('./mapperUtils');
 
 const mapTrackInfo = (routeOf = routes.sqrImage) => (trackInfo) => {
   const {
@@ -35,7 +36,7 @@ const mapToListResponse = (microImage) => ({ tracks }) => {
 
   const mapper = microImage ?
     mapTrackInfo(routes.sqrImageMicro) : mapTrackInfo();
-  response.result = tracks.map(mapper);
+  response.result = tracks.map(mapper).reduce(removeDuplicates, []);
   return response;
 };
 

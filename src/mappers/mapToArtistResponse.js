@@ -1,4 +1,5 @@
 const { routes } = require('../utils/routes');
+const { removeDuplicates } = require('./mapperUtils');
 
 const mapArtistInfo = (artistInfo) => {
   const { id, name } = artistInfo;
@@ -17,7 +18,7 @@ const mapToListResponse = ({ artists }) => {
     return response;
   }
 
-  response.result = artists.map(mapArtistInfo);
+  response.result = artists.map(mapArtistInfo).reduce(removeDuplicates, []);
   return response;
 };
 
