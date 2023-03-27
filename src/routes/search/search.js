@@ -1,26 +1,11 @@
-const { get } = require('../../api/REST-methods');
+const { requestFor } = require('../../api/REST-methods');
 const { routes } = require('../../utils/routes');
 const { mapToSearchData } = require('./responseMapper');
 
-const searchCombination = (req, res) => {
-  const { keywords } = req.params;
-  const searchKeyWord = keywords?.replaceAll(',', ' ');
+const search = async (req, res) => {
+  const { keyword } = req.params;
 
-  const url = routes.searchCombination(searchKeyWord || '');
-  get(url).then(data => {
-    const searchData = mapToSearchData(data);
-    res.json(searchData);
-  });
+  res.json(await requestFor(routes.search(keyword), mapToSearchData));
 };
 
-const searchPlain = (req, res) => {
-  const { keywords } = req.query;
-
-  const url = routes.searchKeyword(keywords || 'top');
-  get(url).then(data => {
-    const searchData = mapToSearchData(data);
-    res.json(searchData);
-  });
-};
-
-module.exports = { searchCombination, searchPlain };
+module.exports = { search };

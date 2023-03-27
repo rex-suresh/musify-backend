@@ -6,6 +6,7 @@ const cors = require('cors');
 const { homePageRouter } = require('./src/routes/homePageRouter.router');
 const { detailPageRouter } = require('./src/routes/detailPageRouter.router');
 const { initiateRedis } = require('./src/redis/redis');
+const { searchRouter } = require('./src/routes/search/searchRouter.router');
 
 const app = express();
 initiateRedis();
@@ -21,6 +22,7 @@ app.get('/', (_, res) => res.json({
 
 app.use('/home', homePageRouter());
 app.use('/detail', detailPageRouter());
+app.use('/search', searchRouter());
 
 app.use('/', (_, res) => {
   res.status(400);

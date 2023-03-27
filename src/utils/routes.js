@@ -17,34 +17,22 @@ const buildTopLink = (section, limit) => {
   return `${domain}/${section}/top?limit=${limit}`;
 };
 
-const buildIdLink = (section, reqIds) => {
-  return `${domain}/${section}/${Array.isArray(reqIds) ? reqIds.join(',') : reqIds}`;
-};
-
 const routes = {
   topTracks: (level = 1, limit = 20) =>
     buildTopRangeLink('tracks', level, limit),
   topPlaylists: (level = 1, limit = 10) =>
     buildTopRangeLink('playlists', level, limit),
-
-  topArtists: (limit = 10) =>
-    buildTopLink('artists', limit),
-  topAlbums: (limit = 20) =>
-    buildTopLink('albums', limit),
+  topArtists: (limit = 10) => buildTopLink('artists', limit),
+  topAlbums: (limit = 20) => buildTopLink('albums', limit),
 
   featuredPlaylists: (limit = 10) =>
     `${domain}/playlists/featured?limit=${limit}`,
 
-  artists: (artistIDs) => buildIdLink('artists', artistIDs),
-  tracks: (trackIDs) => buildIdLink('tracks', trackIDs),
-  albums: (albumIDs) => buildIdLink('albums', albumIDs),
-  playlists: (playlistIDs) => buildIdLink('playlists', playlistIDs),
-
   playlistTracks: (playlistID, limit = 10) => `${domain}/playlists/${playlistID}/tracks?limit=${limit}`,
   albumTracks: (albumID) => `${domain}/albums/${albumID}/tracks`,
-
-  // searchKeyword: (key) => `${fallBackDomain}/search?q=${key}`,
-  // searchCombination: (key) => `${fallBackDomain}/search/verbose?q=${key}`,
+  search: (key = '') =>
+    `${domain}/search/verbose?per_type_limit=${10}` +
+    `&query=${key.replace(' ', '+')}`,
 
   artistTracks: (id) => `${domain}/artists/${id}/tracks/top?limit=5`,
   artistAlbums: (id) => `${domain}/artists/${id}/albums/top?limit=10`,

@@ -1,14 +1,9 @@
 const express = require('express');
-const { searchCombination, searchPlain } = require('./search');
-const { getSearchSuggestions } = require('./searchSuggestions');
+const { search } = require('./search');
 
 const searchRouter = () => {
   const router = express.Router();
-
-  router.get('/suggest', getSearchSuggestions);
-  router.get('/combined', searchCombination);
-  router.get('/plain', searchPlain);
-
+  router.get('/:keyword', search);
   return router;
 };
 

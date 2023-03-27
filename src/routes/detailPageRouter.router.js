@@ -1,13 +1,12 @@
 const express = require('express');
 const { getAlbumTracks } = require('./getAlbumTracks');
-const { getArtistDetail, getArtistTracks, getArtistAlbums } = require('./getArtistDetails');
+const { getArtistTracks, getArtistAlbums } = require('./getArtistDetails');
 const { getPlaylistTracks } = require('./getPlaylistTracks');
 
 const detailPageRouter = () => {
   const router = express.Router();
   router.get('/playlist/:id', getPlaylistTracks);
   router.get('/album/:id', getAlbumTracks);
-  router.get('/artist/:id', getArtistDetail);
   router.get('/artist/tracks/:id', getArtistTracks);
   router.get('/artist/albums/:id', getArtistAlbums);
 
