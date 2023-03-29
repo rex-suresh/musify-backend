@@ -31,7 +31,7 @@ const routes = {
   playlistTracks: (playlistID, limit = 10) => `${domain}/playlists/${playlistID}/tracks?limit=${limit}`,
   albumTracks: (albumID) => `${domain}/albums/${albumID}/tracks`,
   search: (key = '') =>
-    `${domain}/search/verbose?per_type_limit=${10}` +
+    `${domain}/search/verbose?per_type_limit=${6}` +
     `&query=${key.replace(' ', '+')}`,
 
   artistTracks: (id) => `${domain}/artists/${id}/tracks/top?limit=5`,
