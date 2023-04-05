@@ -1,4 +1,3 @@
-require('dotenv').config();
 const express = require('express');
 const morgan = require('morgan');
 const errorhandler = require('errorhandler');
@@ -7,6 +6,7 @@ const { homePageRouter } = require('./src/routes/homePageRouter.router');
 const { detailPageRouter } = require('./src/routes/detailPageRouter.router');
 const { initiateRedis } = require('./src/redis/redis');
 const { searchRouter } = require('./src/routes/search/searchRouter.router');
+const { port } = require('./src/config');
 
 const app = express();
 initiateRedis();
@@ -29,6 +29,6 @@ app.use('/', (_, res) => {
   res.end();
 });
 
-app.listen(process.env.PORT, () => {
-  console.log(`Started listening at ${process.env.HOST}:${process.env.PORT}`);
+app.listen(port, () => {
+  console.log(`Started listening at PORT :${port}`);
 });

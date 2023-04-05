@@ -1,8 +1,4 @@
-require('dotenv').config();
-
-const domain = process.env.API_DOMAIN;
-const img_domain = process.env.IMAGE_DOMAIN;
-// const fallBackDomain = process.env.API_DOMAIN_2;
+const { api_domain, image_domain } = require('../config');
 
 const getRange = (level) => {
   const ranges = ['day', 'week', 'month', 'year', 'life'];
@@ -10,11 +6,11 @@ const getRange = (level) => {
 };
 
 const buildTopRangeLink = (section, level, limit) => {
-  return `${domain}/${section}/top?range=${getRange(level)}&limit=${limit}`;
+  return `${api_domain}/${section}/top?range=${getRange(level)}&limit=${limit}`;
 };
 
 const buildTopLink = (section, limit) => {
-  return `${domain}/${section}/top?limit=${limit}`;
+  return `${api_domain}/${section}/top?limit=${limit}`;
 };
 
 const routes = {
@@ -26,25 +22,27 @@ const routes = {
   topAlbums: (limit = 20) => buildTopLink('albums', limit),
 
   featuredPlaylists: (limit = 10) =>
-    `${domain}/playlists/featured?limit=${limit}`,
+    `${api_domain}/playlists/featured?limit=${limit}`,
 
-  playlistTracks: (playlistID, limit = 10) => `${domain}/playlists/${playlistID}/tracks?limit=${limit}`,
-  albumTracks: (albumID) => `${domain}/albums/${albumID}/tracks`,
+  playlistTracks: (playlistID, limit = 10) =>
+    `${api_domain}/playlists/${playlistID}/tracks?limit=${limit}`,
+  albumTracks: (albumID) =>
+    `${api_domain}/albums/${albumID}/tracks`,
   search: (key = '') =>
-    `${domain}/search/verbose?per_type_limit=${6}` +
+    `${api_domain}/search/verbose?per_type_limit=${6}` +
     `&query=${key.replace(' ', '+')}`,
 
-  artistTracks: (id) => `${domain}/artists/${id}/tracks/top?limit=5`,
-  artistAlbums: (id) => `${domain}/artists/${id}/albums/top?limit=10`,
+  artistTracks: (id) => `${api_domain}/artists/${id}/tracks/top?limit=5`,
+  artistAlbums: (id) => `${api_domain}/artists/${id}/albums/top?limit=10`,
 
   sqrImage: (id) => // tracks | albums
-    `${img_domain}/albums/${id}/images/500x500.jpg`,
+    `${image_domain}/albums/${id}/images/500x500.jpg`,
   sqrImageMicro: (id) => // tracks | albums
-    `${img_domain}/albums/${id}/images/200x200.jpg`,
+    `${image_domain}/albums/${id}/images/200x200.jpg`,
   artImage: (id) =>
-    `${img_domain}/artists/${id}/images/500x500.jpg`,
+    `${image_domain}/artists/${id}/images/500x500.jpg`,
   playlistImage: (id) => // generated images
-    `${img_domain}/playlists/${id}/artists/images/500x500.jpg?montage=2x2`,
+    `${image_domain}/playlists/${id}/artists/images/500x500.jpg?montage=2x2`,
 };
 
 module.exports = { routes };
