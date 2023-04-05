@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "install": "./bin/setupEnv.sh",
     "start": "nodemon . && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
