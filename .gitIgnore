@@ -1,3 +1,4 @@
 node_modules/
 Todo.*
 tmp/
+.env
