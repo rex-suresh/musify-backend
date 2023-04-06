@@ -1,13 +1,15 @@
 const { Redis } = require('ioredis');
+const { redis_domain, redis_key } = require('../config');
 let redis = { set: () => { }, get: () => { } };
+
 const DAY_IN_SECONDS = 24 * 60 * 60;
 
 const initiateRedis = () => {
   try {
     redis = new Redis({
-      password: 'hHgRxDLaMR8eUPk0mDDapovOHA2G7FGd',
-      host: 'redis-12267.c305.ap-south-1-1.ec2.cloud.redislabs.com',
-      port: 12267
+      password: redis_key,
+      host: redis_domain,
+      port: 12267 // default port for redis db
     });
   } catch (error) {
     console.warn('Unable to connect to redis');
