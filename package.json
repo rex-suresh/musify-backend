@@ -2,6 +2,9 @@
   "name": "musify-backend",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "16.6.1"
+  },
   "main": "index.js",
   "scripts": {
     "install": "./bin/setupEnv.sh",
