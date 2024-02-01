@@ -9,7 +9,7 @@ const initiateRedis = () => {
     redis = new Redis({
       password: redis_key,
       host: redis_domain,
-      port: 12267 // default port for redis db
+      port: 15784
     });
   } catch (error) {
     console.warn('Unable to connect to redis');

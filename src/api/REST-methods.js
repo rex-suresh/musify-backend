@@ -3,14 +3,17 @@ const { saveToCache, getFromCache } = require('../redis/redis');
 const { api_key } = require('../config');
 
 const get = async (url) => axios.get(url, {
-  headers: { apikey: api_key }
+  headers: { 'apikey': api_key }
 }).then((res) => {
+  console.log("🚀 ~ get ~ res:", res.data);
   if (res.status === 200) {
     return res;
   }
 
+
   throw new Error(`Request failed with code ${res.status}`);
 }).catch(error => {
+  console.log("🚀 ~ get ~ res:", error);
   console.error(error.message);
 });
 
@@ -21,13 +24,15 @@ const sendAndSave = (res, data, saveAs) => {
 
 const resolveRequest = async (res, url, mapper, requestUrl) => {
   const cachedResponse = await getFromCache(requestUrl);
+  console.log("🚀 ~ resolveRequest ~ cachedResponse:", cachedResponse);
 
   if (cachedResponse) {
     res.json(cachedResponse);
     return;
   }
 
-  get(url).then((response) => {
+  await get(url).then((response) => {
+    console.log("🚀 ~ get ~ response?.status:", response?.status);
     if (response?.status === 200) {
       const downStreamData = mapper(response.data);
       sendAndSave(res, downStreamData, requestUrl);
