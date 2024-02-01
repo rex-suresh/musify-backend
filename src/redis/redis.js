@@ -4,6 +4,9 @@ let redis = { set: () => { }, get: () => { } };
 
 const DAY_IN_SECONDS = 24 * 60 * 60;
 
+// eslint-disable-next-line no-console
+const warn = (message) => console.warn(message);
+
 const initiateRedis = () => {
   try {
     redis = new Redis({
@@ -12,7 +15,7 @@ const initiateRedis = () => {
       port: Number(redis_port)
     });
   } catch (error) {
-    console.warn('Unable to connect to redis');
+    warn('Unable to connect to redis');
   }
 };
 
@@ -20,7 +23,7 @@ const saveToCache = async (requestUrl, data) => {
   try {
     redis.set(requestUrl, JSON.stringify(data), 'EX', DAY_IN_SECONDS);
   } catch (error) {
-    console.warn(`Unable to set ${requestUrl} cache`);
+    warn(`Unable to set ${requestUrl} cache`);
   }
 };
 
@@ -37,7 +40,7 @@ const getFromCache = async (requestUrl) => {
 
     return JSON.parse(value);
   } catch (error) {
-    console.warn(`Unable to get ${requestUrl} from cache`);
+    warn(`Unable to get ${requestUrl} from cache`);
   }
 };
 

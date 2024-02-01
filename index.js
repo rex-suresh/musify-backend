@@ -30,5 +30,5 @@ app.use('/', (_, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Started listening at PORT :${port}`);
+  console.log(`Started listening at http://127.0.0.1:${port}`);
 });
