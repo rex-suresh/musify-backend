@@ -1,5 +1,5 @@
 const { Redis } = require('ioredis');
-const { redis_domain, redis_key } = require('../config');
+const { redis_domain, redis_key, redis_port } = require('../config');
 let redis = { set: () => { }, get: () => { } };
 
 const DAY_IN_SECONDS = 24 * 60 * 60;
@@ -9,7 +9,7 @@ const initiateRedis = () => {
     redis = new Redis({
       password: redis_key,
       host: redis_domain,
-      port: 15784
+      port: Number(redis_port)
     });
   } catch (error) {
     console.warn('Unable to connect to redis');

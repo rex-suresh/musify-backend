@@ -7,4 +7,5 @@ module.exports = {
   api_key: process.env.API_KEY,
   redis_domain: process.env.REDIS_DOMAIN,
   redis_key: process.env.REDIS_KEY,
+  redis_port: process.env.REDIS_PORT,
 };
