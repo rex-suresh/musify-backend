@@ -15,8 +15,8 @@ const buildTopLink = (section, limit) => {
 
 const routes = {
   topTracks: (level = 1, limit = 20) => buildTopRangeLink('tracks', level, limit),
-  topPlaylists: (level = 1, limit = 10) => buildTopRangeLink('playlists', level, limit),
-  topArtists: (limit = 10) => buildTopLink('artists', limit),
+  topPlaylists: () => `${api_domain}/playlists/top`,
+  topArtists: (limit = 15) => buildTopLink('artists', limit),
   topAlbums: (limit = 20) => buildTopLink('albums', limit),
 
   featuredPlaylists: (limit = 10) => `${api_domain}/playlists/featured?limit=${limit}`,

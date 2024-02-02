@@ -11,7 +11,7 @@ fi
 
 
 echo 'PORT="4000"' > .env
-echo 'API_DOMAIN="https://api.napster.com/v2.2"' >> .env
+echo 'API_DOMAIN="https://napi-v2-2-cloud-run-b3gtd5nmxq-uw.a.run.app/v2.2"' >> .env
 echo 'IMAGE_DOMAIN="https://api.napster.com/imageserver/v2"' >> .env
 echo 'API_KEY=""' >> .env
 echo 'REDIS_DOMAIN=""' >> .env # public endpoint

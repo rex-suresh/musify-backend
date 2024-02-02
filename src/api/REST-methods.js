@@ -2,18 +2,24 @@ const { default: axios } = require('axios');
 const { saveToCache, getFromCache } = require('../redis/redis');
 const { api_key } = require('../config');
 
-const get = async (url) => axios.get(url, {
-  headers: { 'apikey': api_key }
-}).then((res) => {
-  if (res.status === 200) {
-    return res;
-  }
+const get = async (url) => {
+  const urlWithKey = new URL(url);
 
-  throw new Error(`Request failed with code ${res.status}`);
-}).catch(error => {
-  // eslint-disable-next-line no-console
-  console.error(error.message);
-});
+  urlWithKey.searchParams.set('apikey', api_key);
+
+  return axios.get(urlWithKey, {
+    headers: { 'apikey': api_key }
+  }).then((res) => {
+    if (res.status === 200) {
+      return res;
+    }
+
+    throw new Error(`Request failed with code ${res.status}`);
+  }).catch(error => {
+    // eslint-disable-next-line no-console
+    console.error(error.message);
+  });
+};
 
 const sendAndSave = (res, data, saveAs) => {
   saveToCache(saveAs, data);

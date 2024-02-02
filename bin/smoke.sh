@@ -10,7 +10,7 @@ open -a "${BROWSER}" "${HOST}/home/albums"
 open -a "${BROWSER}" "${HOST}/home/playlists"
 
 open -a "${BROWSER}" "${HOST}/detail/playlist/pp.225974698"
-open -a "${BROWSER}" "${HOST}/album/Alb.468545309"
+open -a "${BROWSER}" "${HOST}/album/alb.468545309"
 open -a "${BROWSER}" "${HOST}/artist/tracks/Art.468545306"
 open -a "${BROWSER}" "${HOST}/artist/albums/Art.468545306"
 
